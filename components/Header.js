@@ -76,7 +76,7 @@ class Header extends Component{
                         <a className="mobile-search" href="#" onClick={this.handleMobileSearch.bind(this)}><img src="img/icons/search-green.png" alt="search"/></a>
                         <form action="#" method="get" className={this.state.mobileSearch ? "search-form active" : "search-form"}>
                             <a className="back-button" href="#" onClick={this.handleSearchNav.bind(this)}><img src="img/icons/back.png" alt="back"/></a>
-                            <input type="search" ref="searchBox" placeholder="Search for Vegetables and Fruits" className="search-keyword" onChange={this.props.handleSearch}/>
+                            <input type="search" ref="searchBox" placeholder="Search for Products" className="search-keyword" onChange={this.props.handleSearch}/>
                             <button className="search-button" type="submit" onClick={this.handleSubmit.bind(this)}></button>
                         </form>
                     </div>
