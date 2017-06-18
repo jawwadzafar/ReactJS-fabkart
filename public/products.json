@@ -4,33 +4,33 @@
 		"name": "Black Hoodie",
 		"price": 220,
 		"image": "img/products/fashion_1.jpg",
-		"category": "Faishion"
+		"category": "Fashion"
 	},
 	{
 		"id": 2,
 		"name": "White T-Shirt",
 		"price": 410,
 		"image": "img/products/fashion_2.jpg",
-		"category": "Faishion"
+		"category": "Fashion"
 	},
 	{
 		"id": 3,
 		"name": "Black SweatShirt",
-		"price": 700,
+		"price": 740,
 		"image": "img/products/fashion_3.jpg",
-		"category": "Faishion"
+		"category": "Fashion"
 	},
 	{
 		"id": 4,
 		"name": "Samsung Nova",
-		"price": 300,
+		"price": 360,
 		"image": "img/products/electronic_1.jpg",
 		"category": "Phone"
 	},
 	{
 		"id": 5,
 		"name": "Samsung j7",
-		"price": 700,
+		"price": 710,
 		"image": "img/products/electronic_2.jpg",
 		"category": "Phone"
 	},
@@ -44,7 +44,7 @@
 	{
 		"id": 7,
 		"name": "Dell Inspiron 3900",
-		"price": 1000,
+		"price": 600,
 		"image": "img/products/laptop_1.jpg",
 		"category": "Laptop"
 	},
@@ -58,7 +58,7 @@
 	{
 		"id": 9,
 		"name": "HP Pavallion 390",
-		"price": 900,
+		"price": 1000,
 		"image": "img/products/laptop_3.jpg",
 		"category": "Laptop"
 	},
@@ -72,35 +72,35 @@
 	{
 		"id": 11,
 		"name": "Nikkon 34D",
-		"price": 800,
+		"price": 540,
 		"image": "img/products/dslr_2.jpg",
 		"category": "Camera"
 	},
 	{
 		"id": 12,
 		"name": "Cannon D30P",
-		"price": 350,
+		"price": 950,
 		"image": "img/products/dslr_3.jpg",
 		"category": "Camera"
 	},
 	{
 		"id": 13,
 		"name": "Armani G34",
-		"price": 1000,
+		"price": 340,
 		"image": "img/products/watch_1.jpg",
 		"category": "Watch"
 	},
 	{
 		"id": 14,
 		"name": "Skagen Connect",
-		"price": 200,
+		"price": 940,
 		"image": "img/products/watch_2.jpg",
 		"category": "Watch"
 	},
 	{
 		"id": 15,
 		"name": "Fossil",
-		"price": 700,
+		"price": 1100,
 		"image": "img/products/watch_3.jpg",
 		"category": "Watch"
 	}

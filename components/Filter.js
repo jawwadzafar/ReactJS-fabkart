@@ -10,7 +10,7 @@ class Filter extends Component {
           <div className="filter-select">
           <select onChange={this.handleChange.bind(this)}>
             <option value="showall">All Categories</option>
-            <option value="Faishion">Faishion</option>
+            <option value="Fashion">Fashion</option>
             <option value="Phone">Phone</option>
             <option value="Laptop">Laptop</option>
             <option value="Camera">Camera</option>

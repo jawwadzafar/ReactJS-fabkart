@@ -16,15 +16,15 @@ class Products extends Component{
 			let maxPrice = this.props.max;
 			let minPrice = this.props.min;
 			console.log(maxPrice)
-			let sortarray = this.props.productsList;
-			var compare_price_low = function(a,b) {
-      if (a.price < b.price)
-        return -1;
-      if (a.price > b.price)
-        return 1;
-      return 0;
-    }
-			sortarray.sort(compare_price_low);
+		// 	let sortarray = this.props.productsList;
+		// 	var compare_price_low = function(a,b) {
+    //   if (a.price < b.price)
+    //     return -1;
+    //   if (a.price > b.price)
+    //     return 1;
+    //   return 0;
+    // }
+		// 	sortarray.sort(compare_price_low);
 
 
 		function searchingFor(term){
@@ -32,7 +32,7 @@ class Products extends Component{
 				return x.name.toLowerCase().includes(term.toLowerCase()) || !term;
 			}
 		}
-		productsData = sortarray.filter(searchingFor(term)).map(product =>{
+		productsData = this.props.productsList.filter(searchingFor(term)).map(product =>{
 			if(product.category === category || category === "showall"){
 				if(product.price >= minPrice && product.price <= maxPrice  ){
 
