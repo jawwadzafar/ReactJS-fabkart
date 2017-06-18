@@ -1,0 +1,34 @@
+@import 'base/index';
+@import 'components/index';
+@import 'input/index';
+
+.rangestyle {
+    float: left;
+    margin-left: -101px;
+    font-size: 13px;
+    vertical-align: middle;
+    color: rgb(170, 170, 170);
+
+    @media (max-width: 1050px){
+        display: none;
+    }
+}
+
+div.filter-select{
+  @media (max-width: 650px){
+    float: none !important;
+    display: block !important;
+  }
+}
+
+.rangebar{
+  width: 50%;
+  margin: auto;
+  @media (max-width: 650px) {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    margin-left: -15%;
+}
+}
